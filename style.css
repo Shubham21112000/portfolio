@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial' sans-serif;
+}
+.body{
+    background-color: #f0f0f0;
+    color: #333;
+}
+.sidebar {
+    position: absolute;
+    background-color: #67727e;
+    /* width: 300px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in
+    
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: #ecf0f1 ;
+    font-size: 1.2em;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+    padding: 15px;
+}
+
+.contaner {
+    display: flex;
+
+}
+
+.infocontaner{
+    /* background-color: chartreuse; */
+    height: 58vh;
+    width: 70vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 66px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 31px;
+}
+.moredetails{
+    margin-top: 17px;
+}
+.buttons{
+    margin-top: 34px;
+
+}
+
+.btn{
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 8px;
+    padding: 7px 13px;
+    margin: 8px 0;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+    transform: translate(00.3s);
+
+}
+
+.devpic img{
+    height: 58vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    margin: 0 88px;
+
+}
+.contactform h1{
+    /* text-align: center; */
+    padding: 10px 0;
+    margin: 0;
+
+}
+.contactform form div{
+    padding: 8px 0;
+    display: flex;
+      flex-direction: column;
+}
+.contactform form div input{
+    width: 28vw;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+    
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+    
+}
+
+.blogitem{
+    margin: 20px;
+
+}
+h1{
+    margin: 23px;
+
+}
+p{
+
+}
+.intro h2{
+margin: 12px;
+}
+.intro p{
+    margin: 12px;
+
+}
+.skillcontaner{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px black;
+}
+.hundred{
+    width: 280;
+    background-color: rgb(79, 212, 210);
+}
+.fifty{
+    width: 140;
+    background-color: rgb(47, 205, 115);
+}
+.Seventyfive{
+    width: 210;
+    background-color: aqua;
+}
+
+.sidebargo{
+transform: translate(-100%);
+position: absolute;
+/* display: none; */
+opacity: 0;
+visibility: hidden;
+
+
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+}
+.cross{
+    margin-left: 165px;
+}
+@media (max-width: 1000px){
+    /* *{
+        background-color: rgb(177, 97, 97);   
+    } */
+    .devpic{
+        display: none;
+    }
+    /* .sidebar{
+        transform: translate(-245px, 0px);
+        position: absolute;
+    } */
+}
+.intro{
+    margin: 10px 60px;
+}
+.blogcontaner{
+    margin: 10px 60px;
+}
+/* service section.. */
+.services-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.services-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service-box p {
+    font-size: 1em;
+    color: #666;
+}
+
+ 
